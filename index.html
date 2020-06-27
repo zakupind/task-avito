@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css"> 
+    <title>Search in Git Hub</title>
+</head>
+<body>
+    <header>
+        <div class="container header-flex">
+        <h1>GIT</h1>
+
+        <section class="search">
+            <form class="search__form">
+                <h2 class="search__form-head">Поиск</h2>
+                <div class="search-form-container">
+                    <label class="search_form-block">
+                        <input type="text" class="search_form-input" id="searchText"
+                            placeholder="Введи название...">
+                    </label>
+                    <button class="search-form__button">Поиск</button>
+                </div>
+            </form>
+        </section>
+        
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="result-search">
+                <h3 class="result-search_head"></h3>
+                <ul class="result-search_list">
+
+                </ul>
+    
+                <div class="pagination-container">
+                    <ul class="pagination"></ul>
+                </div>
+            </section>
+    
+        </div>
+    </main>
+    
+    <script type="module" src="js/index.js"></script>
+</body>
+</html>
